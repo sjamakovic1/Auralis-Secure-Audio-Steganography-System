@@ -1,0 +1,48 @@
+# Generated RSA keys and local test audio
+*.swkey
+*.wav
+
+# Local message inputs and extracted outputs
+/test_poruka*.txt
+/izdvojena_poruka*.txt
+
+# Local GUI settings
+auralis.ini
+
+# CMake build directories and generated files
+/build/
+/cmake-build-*/
+CMakeUserPresets.json
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+compile_commands.json
+
+# Compiled binaries and object files
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.lib
+*.pdb
+
+# Editor and IDE files
+.vscode/
+.vs/
+.idea/
+*.user
+*.suo
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary and log files
+*.log
+*.tmp
+*.swp
+*~
