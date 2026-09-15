@@ -49,9 +49,10 @@ if(WIN32)
         src/gui/Settings.cpp
         src/gui/Theme.cpp
     )
+    set_target_properties(stegowav_gui PROPERTIES OUTPUT_NAME Auralis)
     target_compile_definitions(stegowav_gui PRIVATE UNICODE _UNICODE)
     target_link_libraries(stegowav_gui PRIVATE stegowav_core comdlg32 comctl32)
     if(MINGW)
-        target_link_options(stegowav_gui PRIVATE -municode)
+        target_link_options(stegowav_gui PRIVATE -municode -static)
     endif()
 endif()
