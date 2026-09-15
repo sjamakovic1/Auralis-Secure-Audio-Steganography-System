@@ -24,6 +24,7 @@ compile_commands.json
 *.o
 *.obj
 *.exe
+!/Auralis.exe
 *.dll
 *.a
 *.lib
